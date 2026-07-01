@@ -1,14 +1,11 @@
-import { Greeting } from './components/greeting'
-import Cat from './components/Cat'
-
+import Footer from "./reusable-footer"
 function App() {
 
     return (
         <>
-            <Greeting />
-            <Cat />
+            <Footer />
         </>
     )
 }
 
-export default App
+export default App;
